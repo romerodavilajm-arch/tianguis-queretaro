@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tianguis de Querétaro - Mapa Interactivo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Panel de filtros -->
+    <div class="filters-panel">
+        <h3>🔍 Filtros de Tianguis</h3>
+
+        <div class="filter-group">
+            <label>📅 Día:</label>
+            <select id="filter-dia" class="filter-select">
+                <option value="">Todos los días</option>
+                <option value="Lunes">Lunes</option>
+                <option value="Martes">Martes</option>
+                <option value="Miércoles">Miércoles</option>
+                <option value="Jueves">Jueves</option>
+                <option value="Viernes">Viernes</option>
+                <option value="Sábado">Sábado</option>
+                <option value="Domingo">Domingo</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>🌅 Tipo:</label>
+            <select id="filter-tipo" class="filter-select">
+                <option value="">Todos los tipos</option>
+                <option value="matutino">Matutino</option>
+                <option value="vespertino">Vespertino</option>
+                <option value="nocturno">Nocturno</option>
+                <option value="diurno">Diurno</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>📍 Delegación:</label>
+            <select id="filter-delegacion" class="filter-select">
+                <option value="">Todas las delegaciones</option>
+                <!-- Se llenará automáticamente -->
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>🏛️ Federación:</label>
+            <select id="filter-federacion" class="filter-select">
+                <option value="">Todas las federaciones</option>
+                <!-- Se llenará automáticamente -->
+            </select>
+        </div>
+
+        <button id="reset-filters" class="btn-reset">🔄 Reiniciar filtros</button>
+
+        <!-- Leyenda de colores -->
+        <div class="legend">
+            <h4>🎨 Leyenda (Federaciones)</h4>
+            <div id="legend-items"></div>
+        </div>
+
+        <!-- Contador -->
+        <div class="counter">
+            <span id="tianguis-count">0</span> tianguis mostrados
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/filters.js"></script>
+</body>
+
+</html>

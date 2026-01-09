@@ -1,0 +1,224 @@
+{
+    "version": "1.0",
+    "fecha_actualizacion": "2024-01-15",
+    "total_tianguis": 5,
+    "tianguis": [
+        {
+            "id": "FCP-001",
+            "nombre": "Tianguis del tintero 3ra sección",
+            "ubicacion": "Av. Revolución",
+            "delegacion": "Felipe Carrillo Puerto",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "9:00 a 23:00",
+            "tipo": "nocturno,matutino",
+            "agremiados": 115,
+            "contacto": {
+                "nombre": "Javier Olvera Robles",
+                "telefono": "4421242484"
+            },
+            "coordenadas": [
+                [
+                    -100.396,
+                    20.585
+                ],
+                [
+                    -100.394,
+                    20.585
+                ],
+                [
+                    -100.394,
+                    20.583
+                ],
+                [
+                    -100.396,
+                    20.583
+                ],
+                [
+                    -100.396,
+                    20.585
+                ]
+            ],
+            "antiguedad": 20,
+            "imagenes": [
+                "https://i.ibb.co/abc123/tintero-01.jpg",
+                "https://i.ibb.co/def456/tintero-02.jpg"
+            ]
+        },
+        {
+            "id": "CEN-001",
+            "nombre": "Tianguis Bernardo Quintana",
+            "ubicacion": "Av. Bernardo Quintana",
+            "delegacion": "Centro",
+            "federacion": "FENAME",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "8:00 a 14:00",
+            "tipo": "matutino",
+            "agremiados": 200,
+            "contacto": {
+                "nombre": "María González",
+                "telefono": "4425678901"
+            },
+            "coordenadas": [
+                [
+                    -100.389,
+                    20.592
+                ],
+                [
+                    -100.387,
+                    20.592
+                ],
+                [
+                    -100.387,
+                    20.590
+                ],
+                [
+                    -100.389,
+                    20.590
+                ],
+                [
+                    -100.389,
+                    20.592
+                ]
+            ],
+            "antiguedad": 15,
+            "imagenes": [
+                "https://i.ibb.co/ghi789/bernardo-01.jpg"
+            ]
+        },
+        {
+            "id": "SRJ-001",
+            "nombre": "Tianguis Arboledas",
+            "ubicacion": "Blvd. Arboledas",
+            "delegacion": "Santa Rosa Jáuregui",
+            "federacion": "UNAT",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "18:00 a 22:00",
+            "tipo": "nocturno",
+            "agremiados": 85,
+            "contacto": {
+                "nombre": "Carlos Ramírez",
+                "telefono": "4422345678"
+            },
+            "coordenadas": [
+                [
+                    -100.379,
+                    20.602
+                ],
+                [
+                    -100.377,
+                    20.602
+                ],
+                [
+                    -100.377,
+                    20.600
+                ],
+                [
+                    -100.379,
+                    20.600
+                ],
+                [
+                    -100.379,
+                    20.602
+                ]
+            ],
+            "antiguedad": 10,
+            "imagenes": [
+                "https://i.ibb.co/jkl012/arboledas-01.jpg",
+                "https://i.ibb.co/mno345/arboledas-02.jpg"
+            ]
+        },
+        {
+            "id": "CEN-002",
+            "nombre": "Tianguis 5 de Febrero",
+            "ubicacion": "Av. 5 de Febrero",
+            "delegacion": "Centro",
+            "federacion": "FETAM",
+            "dias": [
+                "Martes",
+                "Viernes"
+            ],
+            "horario": "7:00 a 16:00",
+            "tipo": "diurno",
+            "agremiados": 150,
+            "contacto": {
+                "nombre": "Roberto Sánchez",
+                "telefono": "4423456789"
+            },
+            "coordenadas": [
+                [
+                    -100.400,
+                    20.595
+                ],
+                [
+                    -100.398,
+                    20.595
+                ],
+                [
+                    -100.398,
+                    20.593
+                ],
+                [
+                    -100.400,
+                    20.593
+                ],
+                [
+                    -100.400,
+                    20.595
+                ]
+            ],
+            "antiguedad": 25,
+            "imagenes": []
+        },
+        {
+            "id": "FCP-002",
+            "nombre": "Tianguis Juriquilla",
+            "ubicacion": "Av. Juriquilla",
+            "delegacion": "Felipe Carrillo Puerto",
+            "federacion": "INDEPENDIENTE",
+            "dias": [
+                "Jueves"
+            ],
+            "horario": "10:00 a 19:00",
+            "tipo": "vespertino",
+            "agremiados": 95,
+            "contacto": {
+                "nombre": "Laura Mendoza",
+                "telefono": "4424567890"
+            },
+            "coordenadas": [
+                [
+                    -100.385,
+                    20.605
+                ],
+                [
+                    -100.383,
+                    20.605
+                ],
+                [
+                    -100.383,
+                    20.603
+                ],
+                [
+                    -100.385,
+                    20.603
+                ],
+                [
+                    -100.385,
+                    20.605
+                ]
+            ],
+            "antiguedad": 8,
+            "imagenes": [
+                "https://i.ibb.co/pqr678/juriquilla-01.jpg"
+            ]
+        }
+    ]
+}

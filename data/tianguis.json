@@ -1363,26 +1363,48 @@
         {
             "id": 58,
             "nombre": "Cuicatecos",
-            "ubicacion": "Calle Cuicatecos esquina Calle Zacapoaxtlas",
+            "ubicacion": "Explanada de Calle Cuicatecos entre Calle Zacapoaxtlas y Calle Pames",
             "colonia": "Cerrito Colorado",
             "delegacion": "Félix Osores Sotomayor",
             "union_independiente": "Unión de Comerciantes Cuicatecos de Querétaro A.C.",
             "federacion": "UCCQ",
             "dias": [
                 "Miércoles",
-                "Sábado"
+                "Sábado",
+                "Domingo"
             ],
-            "horario": "16:00 a 23:00 hrs.",
+            "horario": "17:00 a 23:00 hrs.",
             "tipo": [
                 "vespertino"
             ],
-            "agremiados": 80,
-            "contacto_nombre": "Javier Segundo",
-            "contacto_telefono": "4421242484",
+            "agremiados": 130,
+            "contacto_nombre": "Juana Guadalupe Arteaga Álvarez",
+            "contacto_telefono": "442124248x",
             "antiguedad": "",
             "notas": "",
             "imagenes": [],
-            "coordenadas_poligono": []
+            "coordenadas_poligono": [
+                [
+                    -100.46616248964347,
+                    20.636512290930796
+                ],
+                [
+                    -100.46608736864066,
+                    20.636150447769438
+                ],
+                [
+                    -100.46549744782449,
+                    20.63627037302659
+                ],
+                [
+                    -100.46559024435746,
+                    20.636623945218304
+                ],
+                [
+                    -100.46616248964347,
+                    20.636512290930796
+                ]
+            ]
         },
         {
             "id": 59,

@@ -39,6 +39,7 @@ function generarColoresFederaciones(tianguis) {
 // Cargar datos del JSON
 async function cargarDatos() {
     try {
+        console.log('📥 Cargando datos...');
         const response = await fetch('data/tianguis.json');
         const data = await response.json();
         allTianguis = data.tianguis || [];
@@ -47,6 +48,11 @@ async function cargarDatos() {
         COLORS = generarColoresFederaciones(allTianguis);
 
         console.log(`✅ ${allTianguis.length} tianguis cargados`);
+
+        // Verificar cuántos tienen coordenadas
+        const conCoords = allTianguis.filter(t => t.coordenadas_poligono && t.coordenadas_poligono.length > 0);
+        console.log(`📍 ${conCoords.length} tianguis con coordenadas:`, conCoords.map(t => t.nombre));
+
         inicializarAplicacion();
     } catch (error) {
         console.error('❌ Error cargando datos:', error);
@@ -74,11 +80,18 @@ function renderizarTianguis(tianguis) {
     // Limpiar capa anterior
     polygonsLayer.clearLayers();
 
+    console.log(`🔍 Renderizando ${tianguis.length} tianguis...`);
+    let renderizados = 0;
+    const bounds = [];
+
     tianguis.forEach(t => {
         // Solo renderizar si tiene coordenadas
         if (!t.coordenadas_poligono || t.coordenadas_poligono.length === 0) {
             return; // Saltar tianguis sin coordenadas
         }
+
+        console.log(`✅ Renderizando: ${t.nombre}`, t.coordenadas_poligono);
+        renderizados++;
 
         // Obtener color según federación
         const color = COLORS[t.federacion] || COLORS.default;
@@ -91,6 +104,9 @@ function renderizarTianguis(tianguis) {
             weight: 2
         });
 
+        // Guardar bounds para centrar el mapa
+        bounds.push(...t.coordenadas_poligono);
+
         // Crear contenido del popup
         const popupContent = crearPopupContent(t, color);
 
@@ -102,6 +118,15 @@ function renderizarTianguis(tianguis) {
 
         polygon.addTo(polygonsLayer);
     });
+
+    console.log(`📊 Total renderizados: ${renderizados} de ${tianguis.length}`);
+
+    // Centrar mapa en los tianguis renderizados
+    if (bounds.length > 0) {
+        const latLngs = bounds.map(coord => [coord[1], coord[0]]); // Convertir [lng, lat] a [lat, lng]
+        map.fitBounds(latLngs, { padding: [50, 50] });
+        console.log('🗺️ Mapa centrado en tianguis con coordenadas');
+    }
 }
 
 // Crear contenido del popup

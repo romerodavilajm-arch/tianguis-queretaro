@@ -241,5 +241,85 @@ function actualizarContador(cantidad) {
     document.getElementById('tianguis-count').textContent = cantidad;
 }
 
+// ========== GEOLOCALIZACIÓN ==========
+let userLocationMarker = null;
+
+function mostrarUbicacionUsuario() {
+    const locateBtn = document.getElementById('locate-btn');
+
+    if (!navigator.geolocation) {
+        alert('❌ Tu navegador no soporta geolocalización');
+        return;
+    }
+
+    // Mostrar estado de carga
+    locateBtn.textContent = '⏳ Ubicando...';
+    locateBtn.disabled = true;
+
+    navigator.geolocation.getCurrentPosition(
+        (position) => {
+            const { latitude, longitude } = position.coords;
+
+            // Remover marcador anterior si existe
+            if (userLocationMarker) {
+                map.removeLayer(userLocationMarker);
+            }
+
+            // Crear marcador personalizado
+            const userIcon = L.divIcon({
+                className: 'user-location-marker',
+                html: '<div class="pulse"></div><div class="marker-icon">📍</div>',
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            });
+
+            // Agregar marcador
+            userLocationMarker = L.marker([latitude, longitude], { icon: userIcon })
+                .addTo(map)
+                .bindPopup('<strong>📍 Tu ubicación actual</strong>')
+                .openPopup();
+
+            // Centrar mapa en la ubicación
+            map.setView([latitude, longitude], 15);
+
+            // Restaurar botón
+            locateBtn.textContent = '📍 Mi Ubicación';
+            locateBtn.disabled = false;
+        },
+        (error) => {
+            let mensaje = '❌ No se pudo obtener tu ubicación';
+
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    mensaje = '❌ Permiso de ubicación denegado';
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    mensaje = '❌ Ubicación no disponible';
+                    break;
+                case error.TIMEOUT:
+                    mensaje = '❌ Tiempo de espera agotado';
+                    break;
+            }
+
+            alert(mensaje);
+            locateBtn.textContent = '📍 Mi Ubicación';
+            locateBtn.disabled = false;
+        },
+        {
+            enableHighAccuracy: true,
+            timeout: 10000,
+            maximumAge: 0
+        }
+    );
+}
+
 // Iniciar carga de datos
-document.addEventListener('DOMContentLoaded', cargarDatos);
+document.addEventListener('DOMContentLoaded', () => {
+    cargarDatos();
+
+    // Event listener para botón de geolocalización
+    const locateBtn = document.getElementById('locate-btn');
+    if (locateBtn) {
+        locateBtn.addEventListener('click', mostrarUbicacionUsuario);
+    }
+});

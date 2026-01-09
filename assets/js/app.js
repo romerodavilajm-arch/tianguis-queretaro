@@ -10,17 +10,29 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // ========== VARIABLES GLOBALES ==========
 let allTianguis = [];
 let polygonsLayer = L.layerGroup().addTo(map);
+let COLORS = {};
 
-// Colores por federación
-const COLORS = {
-    'UCTEQ': '#FF6B6B',         // Rojo
-    'FENAME': '#4ECDC4',        // Turquesa
-    'UNAT': '#FFD166',          // Amarillo
-    'FETAM': '#95E1D3',         // Verde agua
-    'INDEPENDIENTE': '#A8DADC', // Azul claro
-    'SINAFED': '#FFA8B6',       // Rosa
-    'default': '#B8B8B8'        // Gris
-};
+// Generar colores dinámicamente basados en las federaciones en los datos
+function generarColoresFederaciones(tianguis) {
+    const federaciones = [...new Set(tianguis
+        .map(t => t.federacion)
+        .filter(f => f && f.trim() !== '')
+    )].sort();
+
+    const coloresBase = [
+        '#FF6B6B', '#4ECDC4', '#FFD166', '#95E1D3',
+        '#A8DADC', '#FFA8B6', '#B8E986', '#F38181',
+        '#AA96DA', '#FCBAD3', '#FFFFD2'
+    ];
+
+    const colores = {};
+    federaciones.forEach((fed, i) => {
+        colores[fed] = coloresBase[i % coloresBase.length];
+    });
+    colores['default'] = '#B8B8B8';
+
+    return colores;
+}
 
 // ========== FUNCIONES PRINCIPALES ==========
 
@@ -29,7 +41,10 @@ async function cargarDatos() {
     try {
         const response = await fetch('data/tianguis.json');
         const data = await response.json();
-        allTianguis = data.tianguis;
+        allTianguis = data.tianguis || [];
+
+        // Generar colores dinámicamente basados en las federaciones
+        COLORS = generarColoresFederaciones(allTianguis);
 
         console.log(`✅ ${allTianguis.length} tianguis cargados`);
         inicializarAplicacion();
@@ -60,11 +75,16 @@ function renderizarTianguis(tianguis) {
     polygonsLayer.clearLayers();
 
     tianguis.forEach(t => {
+        // Solo renderizar si tiene coordenadas
+        if (!t.coordenadas_poligono || t.coordenadas_poligono.length === 0) {
+            return; // Saltar tianguis sin coordenadas
+        }
+
         // Obtener color según federación
         const color = COLORS[t.federacion] || COLORS.default;
 
         // Crear polígono
-        const polygon = L.polygon(t.coordenadas, {
+        const polygon = L.polygon(t.coordenadas_poligono, {
             color: color,
             fillColor: color,
             fillOpacity: 0.5,
@@ -89,6 +109,11 @@ function crearPopupContent(tianguis, color) {
     const diasHTML = Array.isArray(tianguis.dias)
         ? tianguis.dias.map(d => `<span class="dia-tag">${d}</span>`).join('')
         : `<span class="dia-tag">${tianguis.dias || 'No especificado'}</span>`;
+
+    // Manejar tipo como array
+    const tipoHTML = Array.isArray(tianguis.tipo)
+        ? tianguis.tipo.join(', ')
+        : (tianguis.tipo || 'No especificado');
 
     const imagenesHTML = tianguis.imagenes && tianguis.imagenes.length > 0
         ? `
@@ -116,13 +141,34 @@ function crearPopupContent(tianguis, color) {
                     <p>${tianguis.ubicacion || 'No especificada'}</p>
                 </div>
                 
+                ${tianguis.colonia ? `
                 <div class="info-item">
-                    <strong>🏛️ Federación:</strong>
-                    <p style="color:${color}; font-weight:bold;">${tianguis.federacion}</p>
+                    <strong>�️ Colonia:</strong>
+                    <p>${tianguis.colonia}</p>
                 </div>
+                ` : ''}
                 
                 <div class="info-item">
-                    <strong>📅 Días:</strong>
+                    <strong>📍 Delegación:</strong>
+                    <p>${tianguis.delegacion}</p>
+                </div>
+                
+                ${tianguis.federacion ? `
+                <div class="info-item">
+                    <strong>�🏛️ Federación:</strong>
+                    <p style="color:${color}; font-weight:bold;">${tianguis.federacion}</p>
+                </div>
+                ` : ''}
+                
+                ${tianguis.union_independiente ? `
+                <div class="info-item">
+                    <strong>🤝 Unión:</strong>
+                    <p>${tianguis.union_independiente}</p>
+                </div>
+                ` : ''}
+                
+                <div class="info-item">
+                    <strong>� Días:</strong>
                     <div class="dias-container">${diasHTML}</div>
                 </div>
                 
@@ -133,19 +179,14 @@ function crearPopupContent(tianguis, color) {
                 
                 <div class="info-item">
                     <strong>🌅 Tipo:</strong>
-                    <p>${tianguis.tipo || 'No especificado'}</p>
+                    <p>${tipoHTML}</p>
                 </div>
                 
-                <div class="info-item">
-                    <strong>📍 Delegación:</strong>
-                    <p>${tianguis.delegacion}</p>
-                </div>
-                
-                ${tianguis.contacto && tianguis.contacto.nombre ? `
+                ${tianguis.contacto_nombre ? `
                 <div class="info-item">
                     <strong>👤 Contacto:</strong>
-                    <p>${tianguis.contacto.nombre}</p>
-                    ${tianguis.contacto.telefono ? `<p>📞 ${tianguis.contacto.telefono}</p>` : ''}
+                    <p>${tianguis.contacto_nombre}</p>
+                    ${tianguis.contacto_telefono ? `<p>📞 ${tianguis.contacto_telefono}</p>` : ''}
                 </div>
                 ` : ''}
                 
@@ -156,7 +197,7 @@ function crearPopupContent(tianguis, color) {
                 </div>
                 ` : ''}
                 
-                ${tianguis.agremiados ? `
+                ${tianguis.agremiados && tianguis.agremiados > 0 ? `
                 <div class="info-item">
                     <strong>👥 Agremiados:</strong>
                     <p>${tianguis.agremiados}</p>

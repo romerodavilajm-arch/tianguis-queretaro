@@ -1,229 +1,2457 @@
 {
-    "version": "1.0",
-    "fecha_actualizacion": "2024-01-15",
-    "total_tianguis": 5,
+    "metadata": {
+        "fecha_actualizacion": "2026-01-08",
+        "total_tianguis": 102,
+        "fuente": "plantilla_tianguis.xlsx"
+    },
     "tianguis": [
         {
-            "id": "FCP-001",
-            "nombre": "Tianguis del tintero 3ra sección",
-            "ubicacion": "Av. Revolución",
-            "delegacion": "Felipe Carrillo Puerto",
-            "federacion": "UCTEQ",
+            "id": 1,
+            "nombre": "Matutino El Marqués -Arquitectos-",
+            "ubicacion": "Calle Arquitectos entre Avenida Cimatario y Calle Veterinarios",
+            "colonia": "El Marqués",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 2,
+            "nombre": "Nocturno El Marqués -Arquitectos-",
+            "ubicacion": "Calle Arquitectos entre Avenida Cimatario y Calle Doctores",
+            "colonia": "El Marqués",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
             "dias": [
                 "Viernes"
             ],
-            "horario": "9:00 a 23:00",
-            "tipo": "nocturno,matutino",
-            "agremiados": 115,
-            "contacto": {
-                "nombre": "Javier Olvera Robles",
-                "telefono": "4421242484"
-            },
-            "coordenadas": [
-                [
-                    -100.396,
-                    20.585
-                ],
-                [
-                    -100.394,
-                    20.585
-                ],
-                [
-                    -100.394,
-                    20.583
-                ],
-                [
-                    -100.396,
-                    20.583
-                ],
-                [
-                    -100.396,
-                    20.585
-                ]
+            "horario": "16:00 a 23:30 hrs.",
+            "tipo": [
+                "vespertino"
             ],
-            "antiguedad": 20,
-            "imagenes": [
-                "https://i.ibb.co/abc123/tintero-01.jpg",
-                "https://i.ibb.co/def456/tintero-02.jpg"
-            ],
-            "notas": ""
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
         },
         {
-            "id": "CEN-001",
-            "nombre": "Tianguis Bernardo Quintana",
-            "ubicacion": "Av. Bernardo Quintana",
-            "delegacion": "Centro Historico",
-            "federacion": "FENAME",
+            "id": 3,
+            "nombre": "Alianza San Pablo -Calle Real-",
+            "ubicacion": "Calle Camino Real entre Calle Adolfo López Mateos y Callejón de la Cruz",
+            "colonia": "San Pablo",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Jueves",
+                "Sábado",
+                "Viernes"
+            ],
+            "horario": "08:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 4,
+            "nombre": "Encarnación Cabrera",
+            "ubicacion": "Calle J. Encarnación Cabrera, Fernando de Tapia y Cons.",
+            "colonia": "Centro",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Viernes",
+                "Sábado",
+                "Domingo",
+                "Lunes"
+            ],
+            "horario": "07:00 a 20:00 hrs",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 5,
+            "nombre": "Inmediaciones Tepetate",
+            "ubicacion": "Calle San Roque, Rivapalacio, Invierno. Juana de Arco, Jimenez",
+            "colonia": "Lindavista",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 6,
+            "nombre": "Plancha del Tepetate",
+            "ubicacion": "Plancha al exterior del Mercado",
+            "colonia": "El Tepetate",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 7,
+            "nombre": "Plancha del Tepetate",
+            "ubicacion": "Calle Jiménez y Privada Jiménez",
+            "colonia": "El Tepetate",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 8,
+            "nombre": "Plancha Mercado Casa Blanca",
+            "ubicacion": "Calle Heriberto Allera",
+            "colonia": "Casa Blanca",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 9,
+            "nombre": "Popocatépetll",
+            "ubicacion": "Calle Popocatépetl entre Chimborazo y Acocacgua",
+            "colonia": "Las Palmas",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 10,
+            "nombre": "Retablo",
+            "ubicacion": "Calle San Agustín del Retablo",
+            "colonia": "El Retablo FOVISSSTE",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves"
+            ],
+            "horario": "09:00 a 15:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 11,
+            "nombre": "Rivapalacio, Santa Cecilia",
+            "ubicacion": "Invierno de Calle Plan de Ayala a Porvenir",
+            "colonia": "Lindavista",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 12,
+            "nombre": "Prolongación Belén",
+            "ubicacion": "Prolongación Belén casi Sombrerete",
+            "colonia": "Bosques de Bellavista",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Miércoles",
+                "Domingo"
+            ],
+            "horario": "16:00 a 22:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 13,
+            "nombre": "5 de Febrero, El Salitre",
+            "ubicacion": "Calle 5 de Febrero y Cuauhtémoc",
+            "colonia": "El Salitre",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
             "dias": [
                 "Domingo"
             ],
-            "horario": "8:00 a 14:00",
-            "tipo": "matutino",
-            "agremiados": 200,
-            "contacto": {
-                "nombre": "María González",
-                "telefono": "4425678901"
-            },
-            "coordenadas": [
-                [
-                    -100.389,
-                    20.592
-                ],
-                [
-                    -100.387,
-                    20.592
-                ],
-                [
-                    -100.387,
-                    20.590
-                ],
-                [
-                    -100.389,
-                    20.590
-                ],
-                [
-                    -100.389,
-                    20.592
-                ]
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
             ],
-            "antiguedad": 15,
-            "imagenes": [
-                "https://i.ibb.co/ghi789/bernardo-01.jpg"
-            ],
-            "notas": ""
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
         },
         {
-            "id": "SRJ-001",
-            "nombre": "Tianguis Arboledas",
-            "ubicacion": "Blvd. Arboledas",
-            "delegacion": "Santa Rosa Jáuregui",
-            "federacion": "UNAT",
+            "id": 14,
+            "nombre": "Del Pueblo, Unidad Nacional",
+            "ubicacion": "Calle del Pueblo entre Confianza y De La Concordia",
+            "colonia": "Unidad Nacional",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 15,
+            "nombre": "Las Américas, Familiar Nocturno Las Américas",
+            "ubicacion": "Unidad Deportiva, Calle Adolfo López Mateos",
+            "colonia": "Las Américas",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Sábado"
+            ],
+            "horario": "16:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 16,
+            "nombre": "Moctezuma",
+            "ubicacion": "Calle Moctezuma esquina Pie de la Cuesta",
+            "colonia": "Desarrollo San Pablo",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 17,
+            "nombre": "Molineros / Nocturno Molineros",
+            "ubicacion": "Av. Plateros entre Calle Generosidad y Calle Río Blanco",
+            "colonia": "Fracc. El Parque",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Domingo"
+            ],
+            "horario": "15:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 18,
+            "nombre": "Monte Sacro",
+            "ubicacion": "Av. Monte Sacro entre Belén y Praxedis Guerrero",
+            "colonia": "Libertad",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Jueves",
+                "Sábado"
+            ],
+            "horario": "16:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 19,
+            "nombre": "Pirita",
+            "ubicacion": "Calle Pirita entre Calle Diamante y Calle Circón",
+            "colonia": "San Pedrito Peñuelas",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
             "dias": [
                 "Miércoles",
                 "Sábado"
             ],
-            "horario": "18:00 a 22:00",
-            "tipo": "nocturno",
-            "agremiados": 85,
-            "contacto": {
-                "nombre": "Carlos Ramírez",
-                "telefono": "4422345678"
-            },
-            "coordenadas": [
-                [
-                    -100.379,
-                    20.602
-                ],
-                [
-                    -100.377,
-                    20.602
-                ],
-                [
-                    -100.377,
-                    20.600
-                ],
-                [
-                    -100.379,
-                    20.600
-                ],
-                [
-                    -100.379,
-                    20.602
-                ]
+            "horario": "08:00 a 15:00 hrs.",
+            "tipo": [
+                "matutino"
             ],
-            "antiguedad": 10,
-            "imagenes": [
-                "https://i.ibb.co/jkl012/arboledas-01.jpg",
-                "https://i.ibb.co/mno345/arboledas-02.jpg"
-            ],
-            "notas": ""
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
         },
         {
-            "id": "CEN-002",
-            "nombre": "Tianguis 5 de Febrero",
-            "ubicacion": "Av. 5 de Febrero",
-            "delegacion": "Centro Historico",
-            "federacion": "FETAM",
+            "id": 20,
+            "nombre": "Familiar Peñuelas -Plateros predio-",
+            "ubicacion": "Avenida Plateros entre Calle Ferrocarrileros y Calle Jardineros",
+            "colonia": "Peñuelas",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "17:30 a 23:30 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 21,
+            "nombre": "Plateros -dominical-",
+            "ubicacion": "Av. Plateros entre Calzada de Belén y Calle Diamante",
+            "colonia": "San Pedrito Peñuelas",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 22,
+            "nombre": "Platón, El Sabino",
+            "ubicacion": "Av. Platón entre Calle Técnicos y Calle Torneros",
+            "colonia": "El Sabino",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 23,
+            "nombre": "Posadas",
+            "ubicacion": "Calle Posadas entre Av. Pie de la Cuesta y de Las Ánimas",
+            "colonia": "Lomas de San Pedrito",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 24,
+            "nombre": "Querétaro",
+            "ubicacion": "Calle Querétaro, Campeche, Tijuana, Nuevo León e Irapuato",
+            "colonia": "San Jose El Alto",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 25,
+            "nombre": "Menchaca -Rio Hondo-",
+            "ubicacion": "Calle Río Hondo entre Carretera a Chichimequillas y Calle Industriales",
+            "colonia": "Menchaca I",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes"
+            ],
+            "horario": "07:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 26,
+            "nombre": "Sombrerete",
+            "ubicacion": "Av. Cerro del Sombrerete y Callle Tlacael",
+            "colonia": "Altos de San Pablo",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Miércoles",
+                "Viernes"
+            ],
+            "horario": "15:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 27,
+            "nombre": "Buenos Aires",
+            "ubicacion": "Calle 6 entre Avenida Epigmenio González y Calle 7",
+            "colonia": "Buenos Aires",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Sábado"
+            ],
+            "horario": "15:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 28,
+            "nombre": "5 Halcones",
+            "ubicacion": "Calle 14 entre Epigmenio González y San Agustín",
+            "colonia": "5 Halcones",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "16:00 a 24:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 29,
+            "nombre": "Los Huertos",
+            "ubicacion": "Prolong. Calzada Belén entre Jalisco y Av. de las Moras",
+            "colonia": "Fracc. Los Huertos",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "16:00 a 23:30 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 30,
+            "nombre": "Los Arroyitos",
+            "ubicacion": "Calle Desierto de Antares esquina Calle Arroyo Grande",
+            "colonia": "Los Arroyitos",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Viernes",
+                "Sábado"
+            ],
+            "horario": "17:00 a 22:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 31,
+            "nombre": "Vasco de Quiroga",
+            "ubicacion": "Calle Vasco de Quiroga",
+            "colonia": "El Salitre",
+            "delegacion": "Epigmenio González Flores",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "08:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 32,
+            "nombre": "Campo Militar -Dalia-",
+            "ubicacion": "Calle Dalia entre Calle Hacienda San Juan y Calle Nueva",
+            "colonia": "San Antonio de la Punta",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes de San Antonio de la Punta, A.C.",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Miércoles"
+            ],
+            "horario": "06:00 a 15:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 50,
+            "contacto_nombre": "Wendy Mendoza de Jesús",
+            "contacto_telefono": "4426079330",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 33,
+            "nombre": "Calle Nueva",
+            "ubicacion": "Calle Nueva entre Calle los Mendoza y Calle Dalia",
+            "colonia": "San Antonio de la Punta",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes de San Antonio de la Punta, A.C.",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 110,
+            "contacto_nombre": "Wendy Mendoza de Jesús",
+            "contacto_telefono": "4426079330",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 34,
+            "nombre": "Diamante -El Sol-",
+            "ubicacion": "Calle Diamante entre Calle Vía Láctea y Alfa Centauro",
+            "colonia": "El Sol",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Tianguistas El Sol A. C.",
+            "federacion": "FUCQ",
+            "dias": [
+                "Jueves"
+            ],
+            "horario": "18:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 90,
+            "contacto_nombre": "Jacinto Alejandro Galarza Belmont",
+            "contacto_telefono": "4421740698",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 35,
+            "nombre": "Ejido Modelo -Guadalupe-",
+            "ubicacion": "Calle Guadalupe entre Calle del Carmen y Calle Socorro",
+            "colonia": "Ejido Modelo",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes Tianguistas 26 de Julio A.C.",
+            "federacion": "FUCQ",
+            "dias": [
+                "Miércoles"
+            ],
+            "horario": "06:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 70,
+            "contacto_nombre": "Salvador García Rosas",
+            "contacto_telefono": "4426054165",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 36,
+            "nombre": "Literatura",
+            "ubicacion": "Av. Literatura entre Alfonso Reyes y Plutarco Elías Calles",
+            "colonia": "El Tintero",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Comerciantes Unidos del Tianguis Literatura A.C.",
+            "federacion": "FEQUC",
+            "dias": [
+                "Lunes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Francisco Lagunas Calderón",
+            "contacto_telefono": "4422528085",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 37,
+            "nombre": "Mercado Santa Mónica -explanada-",
+            "ubicacion": "Av. Revolución entre Prolongación Santa Mónica y Lago",
+            "colonia": "Santa Mónica",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes Bicentenario A.C.",
+            "federacion": "FUCQ",
+            "dias": [
+                "Lunes"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 160,
+            "contacto_nombre": "Ismael Ildefonso Venegas",
+            "contacto_telefono": "4421711030",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 38,
+            "nombre": "Pino Suárez / Ejido Modelo",
+            "ubicacion": "Prolongación Pino Suárez entre Antonio Soto y Gama y Alfredo V. Bonfil",
+            "colonia": "Ejido Modelo",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes del Ejido Modelo, A.C.",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 160,
+            "contacto_nombre": "Blanca Lidia Villagran Aguilar    Secretaria General",
+            "contacto_telefono": "4423590262",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 39,
+            "nombre": "Bicentenario 2010",
+            "ubicacion": "Calle San José entre Calle Independencia y Alfredo V. Bonfil",
+            "colonia": "Santa María Magdalena",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Asociación BICENTENARIO 2010 STA. MARÍA, A.C.",
+            "federacion": "FUCQ",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "14:00 a 22:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 54,
+            "contacto_nombre": "Rocio Arellano Ortiz",
+            "contacto_telefono": "4427085826",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 40,
+            "nombre": "Hidalgo / Santa María Magdalena",
+            "ubicacion": "Calle Brasil entre Av. Miguel Hidalgo y Calle San José",
+            "colonia": "Santa María Magdalena",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes Tianguistas en General del Estado de Querétaro A.C.",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Martes",
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 50,
+            "contacto_nombre": "Manuel Ramírez Rodríguez",
+            "contacto_telefono": "4426345460",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 41,
+            "nombre": "Santa Mónica - Rocío",
+            "ubicacion": "Calle Rocio entre Platino, Torrente Arroyo y Av. Santa Mónica",
+            "colonia": "Santa Mónica",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes del Tianguis Santa Mónica",
+            "federacion": "FUCQ",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "MIE 17:00 a 23:00 hrs, SAB 08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Olivia Romero Huerta",
+            "contacto_telefono": "4422711772",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 42,
+            "nombre": "Revolución -El Tintero-",
+            "ubicacion": "Av. Revolución entre Calle Plutarco Elias Calles y Av. de la Poesía",
+            "colonia": "El Tintero",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes Tianguistas en General del Estado de Querétaro A.C.",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "09:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 60,
+            "contacto_nombre": "Antonio Rico Hernández",
+            "contacto_telefono": "4427232250",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 43,
+            "nombre": "Tlacote El Bajo",
+            "ubicacion": "Calle Miguel Hidalgo entre 25 de Julio y Mariano Escobedo",
+            "colonia": "Tlacote El Bajo",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes Tianguistas en General del Estado de Querétaro A.C",
+            "federacion": "UCTEQ",
             "dias": [
                 "Martes",
                 "Viernes"
             ],
-            "horario": "7:00 a 16:00",
-            "tipo": "diurno",
-            "agremiados": 150,
-            "contacto": {
-                "nombre": "Roberto Sánchez",
-                "telefono": "4423456789"
-            },
-            "coordenadas": [
-                [
-                    -100.400,
-                    20.595
-                ],
-                [
-                    -100.398,
-                    20.595
-                ],
-                [
-                    -100.398,
-                    20.593
-                ],
-                [
-                    -100.400,
-                    20.593
-                ],
-                [
-                    -100.400,
-                    20.595
-                ]
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
             ],
-            "antiguedad": 25,
+            "agremiados": 50,
+            "contacto_nombre": "Gabriel Silva Jimenez",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
             "imagenes": [],
-            "notas": ""
+            "coordenadas_poligono": []
         },
         {
-            "id": "FCP-002",
-            "nombre": "Tianguis Juriquilla",
-            "ubicacion": "Av. Juriquilla",
+            "id": 44,
+            "nombre": "La Sierrita",
+            "ubicacion": "Calle Sierra del Norte entre Sierra Oriental y Calle Sierra del Pacífico",
+            "colonia": "La Sierrita",
             "delegacion": "Felipe Carrillo Puerto",
-            "federacion": "INDEPENDIENTE",
+            "union_independiente": "Union de Comerciantes Fernando Maldonado, A.C.",
+            "federacion": "",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "07:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 50,
+            "contacto_nombre": "Maria Guadalupe Jurado Aguilar     Secretaria General",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 45,
+            "nombre": "Villa Urrutia",
+            "ubicacion": "Calle Siguenza y Góngora entre Calle Plutarco Elías Calles y Calle Juan Ruiz de Alarcón",
+            "colonia": "El Tintero",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Tianguistas del Ahorro Familiar A.C.",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 50,
+            "contacto_nombre": "Jesús Miguel Rosas Martínez",
+            "contacto_telefono": "4423468008",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 46,
+            "nombre": "Loma IX",
+            "ubicacion": "Calle Sierra Morena y Circuito Sierra Morena",
+            "colonia": "Loma IX",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Unión de Comerciantes y Trabajadores del Estado de Querétaro",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 120,
+            "contacto_nombre": "Jaime Balderas Martínez",
+            "contacto_telefono": "4423627090",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 47,
+            "nombre": "Valle de Mompani -Ciudad del Sol-",
+            "ubicacion": "Av. Valle de Mompaní entre Av. Valle del Salitre y Av. Valle de San Pedro Mártir",
+            "colonia": "Fracc. Valle de Santiago",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Federación de Comerciantes y Prestadores de Servicios, A.C.",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 30,
+            "contacto_nombre": "Imelda Flores Velazquez",
+            "contacto_telefono": "442343962",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 48,
+            "nombre": "El Sauce Puerta Navarra -Jardines de Azucenas-",
+            "ubicacion": "Calle Nogal entre Avenida Puerta Navarra y Calle Fresas",
+            "colonia": "Jardines de Azucena",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "Federación de Comerciantes y Prestadores de Servicios, A.C.",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "16:00 a 24:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Rocío Alvarado Ramírez",
+            "contacto_telefono": "4421695156",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 49,
+            "nombre": "El Nabo",
+            "ubicacion": "Av. de Guadalupe entre Av. San Juan y Av. San Antonio",
+            "colonia": "El Nabo",
+            "delegacion": "Felipe Carrillo Puerto",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 120,
+            "contacto_nombre": "Javier Olvera Robles",
+            "contacto_telefono": "4421242484",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 50,
+            "nombre": "Plan de San Luis -10 de Abril-",
+            "ubicacion": "Avenida Plan de San Luis entre Calle Galilea y Calle Gral. Tomás Urbina",
+            "colonia": "10 de abril",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Tianguistas Nocturno Molineros A.C.",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Lunes",
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "LUN 08:00 a 17:00 hrs., MIE, SAB 15:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Oliva Romero Huerta",
+            "contacto_telefono": "4422711772",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 51,
+            "nombre": "Alpes -Loma Bonita-",
+            "ubicacion": "Calle Alpes entre Av. Popocatépetl y Calle Cofre de Perote",
+            "colonia": "Loma Bonita",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Tianguistas de Loma Bonita A. C.",
+            "federacion": "FUCQ",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 100,
+            "contacto_nombre": "Leticia Arriaga Esqueda",
+            "contacto_telefono": "4423590814",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 52,
+            "nombre": "Atenas -Sauces-",
+            "ubicacion": "Calle Atenas entre Calle Lisboa y casi Calle Madrid",
+            "colonia": "Los Sauces",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Agrupación de Comerciantes Nocturnos de Querétaro A. C.",
+            "federacion": "FEQUC",
             "dias": [
                 "Jueves"
             ],
-            "horario": "10:00 a 19:00",
-            "tipo": "vespertino",
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 16,
+            "contacto_nombre": "Rubén Guerrero Olmedo",
+            "contacto_telefono": "4423361744",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 53,
+            "nombre": "Begonias -Insurgentes-",
+            "ubicacion": "Av. Begonias entre Calle Dalia y Av. Tempano",
+            "colonia": "Fracc. Insurgentes",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Federación de Comerciantes, Transportistas y Asociaciones Civiles del Estado de Querétaro",
+            "federacion": "FETAQ",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "MIE 08:00 a 16:00 hrs., SAB 17:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 43,
+            "contacto_nombre": "Leticia Arriaga Esqueda",
+            "contacto_telefono": "4423590814",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 54,
+            "nombre": "California",
+            "ubicacion": "Boulevard California entre Avenida Sonora y Calle Obrero Mundial",
+            "colonia": "Francisco Villa 1",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Agrupación de Comerciantes Nocturnos de Querétaro A. C.",
+            "federacion": "FEQUC",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "07:00 a 15:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Jaime Balderas Martínez (presidente)",
+            "contacto_telefono": "4421695156",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 55,
+            "nombre": "Cascada",
+            "ubicacion": "Avenida de la Cascada entre Paseo de las Peñas y Calle Jade",
+            "colonia": "Satélite FOVISSSTE",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Tianguistas del Ahorro Familiar A. C.",
+            "federacion": "UTAFAC",
+            "dias": [
+                "Miércoles"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Emigdio Florencio Rangel",
+            "contacto_telefono": "4425850289",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 56,
+            "nombre": "Ex Hacienda Santa Ana -Cerro de la Cruz-",
+            "ubicacion": "Calle Cerro de la Cruz entre Cerro Calentura y Cerro Zituni",
+            "colonia": "Fraccionamiento Ex Hacienda Santa Ana",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "",
+            "federacion": "FUCQ",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "17:00 a 23:30 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Leticia Arriaga Esqueda",
+            "contacto_telefono": "4423590814",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 57,
+            "nombre": "Cerro de Mintehé -Santa Ana-",
+            "ubicacion": "Calle Cerro de Mintehé entre Cerro Santa Teresa y Cerro de la Rochera",
+            "colonia": "Fraccionamiento Ex Hacienda Santa Ana",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Agrupación de Comerciantes Nocturnos de Querétaro A.C.",
+            "federacion": "FEQUC",
+            "dias": [
+                "Lunes"
+            ],
+            "horario": "16:30 a 23:30 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Leon Morales Reséndiz",
+            "contacto_telefono": "4424467277",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 58,
+            "nombre": "Cuicatecos",
+            "ubicacion": "Calle Cuicatecos esquina Calle Zacapoaxtlas",
+            "colonia": "Cerrito Colorado",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes Cuicatecos de Querétaro A.C.",
+            "federacion": "UCCQ",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "16:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Javier Segundo",
+            "contacto_telefono": "4421242484",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 59,
+            "nombre": "Los Juncos",
+            "ubicacion": "Prolongación Popocatépetl entre Paseo Querétaro y Calle 7",
+            "colonia": "Fracc. Los Juncos",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Federación de Comerciantes y Prestadores de Servicios, A.C.",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Leticia Arriaga Esqueda",
+            "contacto_telefono": "4423590814",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 60,
+            "nombre": "Laguna -Rocío-",
+            "ubicacion": "Av. Laguna entre Av. Revolución y Calle Iceberg",
+            "colonia": "El Rocío",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Agrupación de Comerciantes Nocturnos de Querétaro A. C.",
+            "federacion": "FEQUC",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Daniel Benito Sanchez López",
+            "contacto_telefono": "4424490055",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 61,
+            "nombre": "La Loma",
+            "ubicacion": "Calle Monte Parnaso entre Macizo de Tibesti y Monte Sion",
+            "colonia": "La Loma",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Vecinos de la Loma A.C.",
+            "federacion": "Independiente",
+            "dias": [
+                "Jueves",
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 80,
+            "contacto_nombre": "Jaime Balderas Martinez (presidente)",
+            "contacto_telefono": "4421695156",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 62,
+            "nombre": "Los Sauces -Madrid-",
+            "ubicacion": "Calle Madrid entre Calle Roma y Calle Paris",
+            "colonia": "Los Sauces",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Tianguistas del Ahorro Familiar A.C.",
+            "federacion": "UTAFAC",
+            "dias": [
+                "Lunes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 81,
+            "contacto_nombre": "Jose Rufino Amador",
+            "contacto_telefono": "4426536144",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 63,
+            "nombre": "Maguey -El Garambullo-",
+            "ubicacion": "Calle Maguey y Calle Nopal, entre Calle Tuna, Maguey Ote. y Agave",
+            "colonia": "El Garambullo",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Agrupación de Comerciantes Nocturnos de Querétaro A.C.",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "08:00 a 17:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 82,
+            "contacto_nombre": "Maria Cruz Cornejo",
+            "contacto_telefono": "8060225",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 64,
+            "nombre": "Mercado Morelos",
+            "ubicacion": "Calle Sonora entre Calle Oaxaca y Calle Durango",
+            "colonia": "La Obrera",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes Tianguistas en General del Estado de Querétaro A.C.",
+            "federacion": "FUCQ",
+            "dias": [
+                "Miércoles",
+                "Sábado"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 83,
+            "contacto_nombre": "Jaime Balderas Martinez (presidente)",
+            "contacto_telefono": "4421695156",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 65,
+            "nombre": "Mezquite",
+            "ubicacion": "Calle Mezquite entre Av. de la Luz y Calle Agave",
+            "colonia": "El Garambullo",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Tianguistas del Ahorro Familiar A.C.",
+            "federacion": "UTAFAC",
+            "dias": [
+                "Martes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 84,
+            "contacto_nombre": "Antonio Rico Hermández",
+            "contacto_telefono": "4427232250",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 66,
+            "nombre": "Morelos -San Pedro Mártir-",
+            "ubicacion": "Calle Morelos entre Calle Altamirano y Calle Zafiro",
+            "colonia": "San Pedro Mártir",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes y Trabajadores del Estado de Querétaro",
+            "federacion": "UCTEQ",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 15:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 85,
+            "contacto_nombre": "Daniel Benito Sanchez López",
+            "contacto_telefono": "4424490055",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 67,
+            "nombre": "Paseos de San Miguel",
+            "ubicacion": "Calle San Ariel entre Av. San Miguel y Calle San Rochel",
+            "colonia": "Fracc. Paseos de San Miguel",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Alianza de Sectores Populares",
+            "federacion": "Independiente",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 86,
+            "contacto_nombre": "Juvenal Jiménez Juárez",
+            "contacto_telefono": "4423192611",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 68,
+            "nombre": "Peñaflor",
+            "ubicacion": "Calle Pirineos entre Calle 6 y Calle 11",
+            "colonia": "Revolución",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes Ambulantes Fijos y Semifijos Gral. Lázaro Cárdenas, A.C.",
+            "federacion": "",
+            "dias": [
+                "Miércoles",
+                "Domingo"
+            ],
+            "horario": "07:00 a 15:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 87,
+            "contacto_nombre": "Vicente Negrete Téllez",
+            "contacto_telefono": "4424639076",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 69,
+            "nombre": "Satélite",
+            "ubicacion": "Av. de la Piedra, Calle del Crestón, Calle Paricutín, Av. de las Fuentes",
+            "colonia": "Satélite",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Asociación de Comerciantes Peña Flor, A.C.",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Sábado"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 88,
+            "contacto_nombre": "Ernesto González Ruíz",
+            "contacto_telefono": "4424874208",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 70,
+            "nombre": "Hortencias",
+            "ubicacion": "Calle Camelinas entre Calle Hortencias y Calle Lirios",
+            "colonia": "Pueblo Jurica",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes y Tianguistas Independientes de la Peña A.C.",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 89,
+            "contacto_nombre": "José Francisco Avila Castillo",
+            "contacto_telefono": "4425660924",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 71,
+            "nombre": "Laderas de San Pedro",
+            "ubicacion": "Circuito Rubí Pte entre Javier Mina y Jacarandas",
+            "colonia": "Laderas de San Pedro",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes Tianguistas del Mercado Satélite, adheridos a la FECOPSE",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Miércoles",
+                "Domingo"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 90,
+            "contacto_nombre": "Ma. Guadalupe Hernández Ferrusca",
+            "contacto_telefono": "4421181940",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 72,
+            "nombre": "Che Guevara",
+            "ubicacion": "Calle Venezuela entre Calle Monte Azul y Av. México",
+            "colonia": "Che Guevara",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Tianguistas Jurica, A.C.",
+            "federacion": "Alianza de Sectores Populares",
+            "dias": [
+                "Martes",
+                "Viernes"
+            ],
+            "horario": "17:30 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 91,
+            "contacto_nombre": "Jose Alejandro Avila Castillo",
+            "contacto_telefono": "4423827503",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 73,
+            "nombre": "Colinas de Santa Cruz",
+            "ubicacion": "Calle San Antonio esquina Carretera a San Pedro Martir",
+            "colonia": "Colinas de Santa Cruz",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes Tianguistas de Laderas de San Pedro M.",
+            "federacion": "Independiente",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 92,
+            "contacto_nombre": "Jaime Vara Reyes",
+            "contacto_telefono": "4427761666",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 74,
+            "nombre": "Alianza San Rafael",
+            "ubicacion": "Avenida San Rafael entre Avenida Paseos de San Miguel y Calle San Rochel",
+            "colonia": "Fraccionamiento Paseos de San Miguel",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Unión de Comerciantes 21 de Marzo La Loma A. C.",
+            "federacion": "CROC",
+            "dias": [
+                "Miércoles"
+            ],
+            "horario": "16:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 93,
+            "contacto_nombre": "Alejandrina Torres Rangel",
+            "contacto_telefono": "4442598270",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 75,
+            "nombre": "Sakurajima-Loarca",
+            "ubicacion": "Av. Sakurajima esquina Av. Plan de San Luis",
+            "colonia": "Fracc. Eduardo Loarca",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "",
+            "federacion": "FUCQ",
+            "dias": [
+                "Viernes",
+                "Domingo"
+            ],
+            "horario": "VIE 17:00 a 23:00 hrs., DOM 07:00 a 15:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 94,
+            "contacto_nombre": "Rocío Alvarado Ramírez",
+            "contacto_telefono": "442 169 1109",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 76,
+            "nombre": "Tojolobales",
+            "ubicacion": "Calle Tojolobales entre Zacapoaxtlas y Matlazincas",
+            "colonia": "Geo Villas",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Adheridos a FECOPSE",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Jueves",
+                "Domingo"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
             "agremiados": 95,
-            "contacto": {
-                "nombre": "Laura Mendoza",
-                "telefono": "4424567890"
-            },
-            "coordenadas": [
-                [
-                    -100.385,
-                    20.605
-                ],
-                [
-                    -100.383,
-                    20.605
-                ],
-                [
-                    -100.383,
-                    20.603
-                ],
-                [
-                    -100.385,
-                    20.603
-                ],
-                [
-                    -100.385,
-                    20.605
-                ]
+            "contacto_nombre": "Luz María Hinojosa Ayala",
+            "contacto_telefono": "446 154 5966",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 77,
+            "nombre": "Tomillo",
+            "ubicacion": "Calle Tomillo entre Av. Plan de San Luis y Paseo Querétaro",
+            "colonia": "El Romerillal",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Alianza de Comerciantes El Sauce",
+            "federacion": "",
+            "dias": [
+                "Domingo"
             ],
-            "antiguedad": 8,
-            "imagenes": [
-                "https://i.ibb.co/pqr678/juriquilla-01.jpg"
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "vespertino"
             ],
-            "notas": ""
+            "agremiados": 96,
+            "contacto_nombre": "Luz María Hinojosa Ayala",
+            "contacto_telefono": "446 154 5966",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 78,
+            "nombre": "Tabachines -San Rafael-",
+            "ubicacion": "Av. San Rafael esquina Calle San Samael",
+            "colonia": "Fracc. Paseos de San Miguel",
+            "delegacion": "Félix Osores Sotomayor",
+            "union_independiente": "Alianza de Comerciantes El Sauce",
+            "federacion": "FECOPSE",
+            "dias": [
+                "Viernes",
+                "Domingo"
+            ],
+            "horario": "08:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 97,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 79,
+            "nombre": "Mercado 4 de Marzo",
+            "ubicacion": "Calle Enrique Rodiles entre Calle Abraham Castellanos, Manuel González y Francisco Arias",
+            "colonia": "Reforma Agraria",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Miércoles"
+            ],
+            "horario": "07:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 80,
+            "nombre": "Solidadridad 2000",
+            "ubicacion": "Calle Antonio Carranza entre Calle Alfonso Cravioto y Blvd. de las Américas",
+            "colonia": "Reforma Agraria",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 81,
+            "nombre": "Durazno",
+            "ubicacion": "Calle Durazno entre Avenida Chabacano y Avenida del Zapote",
+            "colonia": "Reforma Agraria",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 82,
+            "nombre": "Av. 4, LBC",
+            "ubicacion": "Avenida 4 entre Calle 23, 25 y 27 de Calle 23 a Avenida 6",
+            "colonia": "Lomas de Casa Blanca",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Domingo"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 83,
+            "nombre": "Av. 8, LCB",
+            "ubicacion": "Avenida 8 entre Calle 15 y Calle 25, jardin y explanada del mercado y Avenida 10",
+            "colonia": "Lomas de Casa Blanca",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Jueves",
+                "Domingo"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 84,
+            "nombre": "Lázaro Cárdenas",
+            "ubicacion": "Calle Plutarco Elías Calles entre la Calle Lic. Jesús Reyes Heroles y Circuito Lázaro Cárdenas.",
+            "colonia": "Lázaro Cárdenas",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Viernes"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 85,
+            "nombre": "Presidentes -1o de Agosto-",
+            "ubicacion": "Calle 24 entre Av. Presidentes, Calle 7 y Miguel Alemán Valdés",
+            "colonia": "Presidentes",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "06:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 86,
+            "nombre": "Plaza San Marcos",
+            "ubicacion": "Calle Plaza San Marcos entre Calle Paseo de las Plazas y Calle Plaza del Carmen",
+            "colonia": "Las Plazas",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Viernes"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 87,
+            "nombre": "Kiosco de la Reforma",
+            "ubicacion": "Jardín de la Reforma Agraria, a un costado del kiosco, entre las Calles Serapio Rendón y José María Lozano",
+            "colonia": "Reforma Agraria",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Jueves",
+                "Viernes",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "06:00 a 16:30 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 88,
+            "nombre": "Explanada Mercado 4 de Marzo",
+            "ubicacion": "Calle Enrique Rodiles emtre Calle Abraham Castellanos, Calle Manuel González y Calle Francisco Arias",
+            "colonia": "Reforma Agraria",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Miércoles",
+                "Viernes"
+            ],
+            "horario": "LUN, MIE 08:00 a 16:00 hrs., VIE 17:00 a 23:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 89,
+            "nombre": "Explanada Mercado Lázaro Cárdenas",
+            "ubicacion": "Circuito Lázaro Cárdenas entre Calle Lic. Carlos A Madrazo y Calle Lic. Jesús Reyes Heroles",
+            "colonia": "Lázaro Cárdenas",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "09:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 90,
+            "nombre": "Gari Lomas -Mercado de Lomas de Casa Blanca-",
+            "ubicacion": "Explanada del Mercado y Plaza Pública Andrés Balvanera, Avenida 8 y Calle 23",
+            "colonia": "Lomas de Casa Blanca",
+            "delegacion": "Josefa Vergara y Hernández",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Martes",
+                "Miércoles",
+                "Jueves",
+                "Viernes",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "07:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 91,
+            "nombre": "Buenavista",
+            "ubicacion": "Calle Ignacio Ramírez entre Calle José Maria Morales y Plaza Revolución",
+            "colonia": "Buenavista",
+            "delegacion": "Santa Rosa Jáuregui",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Miércoles",
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 92,
+            "nombre": "Mercado Santa Rosa",
+            "ubicacion": "Calle Niños Héroes entre Calle 20 de Noviembre y Calle Josefa Ortiz de Dominguez",
+            "colonia": "Centro",
+            "delegacion": "Santa Rosa Jáuregui",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 93,
+            "nombre": "Pasaje Juárez",
+            "ubicacion": "Calle Benito Juárez entre Calle 5 de Mayo y Calle Emiliano Zapata",
+            "colonia": "Centro, SRJ",
+            "delegacion": "Santa Rosa Jáuregui",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 94,
+            "nombre": "Canal Santa Rosa",
+            "ubicacion": "Calles Aledañas al Mercado Santa Rosa",
+            "colonia": "Centro, SRJ",
+            "delegacion": "Santa Rosa Jáuregui",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 95,
+            "nombre": "Bazar Santa Rosa",
+            "ubicacion": "Calle sin nombre entre Calle Vicente Guerrero y Mariano Matamoros, atrás del COBAQ, sobre el canal",
+            "colonia": "Centro, SRJ",
+            "delegacion": "Santa Rosa Jáuregui",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "07:00 a 17:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 96,
+            "nombre": "Capricornio -nocturno-",
+            "ubicacion": "Calle Capricornio entre Calle Leo y Calle Venus",
+            "colonia": "Bolaños",
+            "delegacion": "Villa Cayetano Rubio",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Viernes"
+            ],
+            "horario": "17:00 a 23:00 hrs.",
+            "tipo": [
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 97,
+            "nombre": "Capricornio -matutino-",
+            "ubicacion": "Calle Capricornio entre Calle Leo y Calle Venus",
+            "colonia": "Bolaños",
+            "delegacion": "Villa Cayetano Rubio",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Sábado"
+            ],
+            "horario": "08:00 a 15:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 98,
+            "nombre": "Tejas -Hércules-",
+            "ubicacion": "Plaza Bicentenario entre Calle Tejas y Av. del Río",
+            "colonia": "Hércules",
+            "delegacion": "Villa Cayetano Rubio",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Martes",
+                "Sábado"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 99,
+            "nombre": "20 de noviembre",
+            "ubicacion": "Calle 20 de Noviembre entre Av. Ignacio Zaragoza y Manuel Acuña, al exerior del DIF Municipal",
+            "colonia": "Barrio de la Cruz",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Martes",
+                "Miércoles",
+                "Jueves",
+                "Viernes",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "07:00 a 22:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 100,
+            "nombre": "21 de marzo",
+            "ubicacion": "Calle 21 de Marzo entre Av. Insurgentes Queretanos y Calle La Aurora",
+            "colonia": "San Francisquito",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Martes",
+                "Miércoles",
+                "Jueves",
+                "Viernes",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "08:00 a 20:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 101,
+            "nombre": "Madero",
+            "ubicacion": "Calle Francisco I. Madero esquina Calle Ignacio Pérez",
+            "colonia": "Centro",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Lunes",
+                "Martes",
+                "Miércoles",
+                "Jueves",
+                "Viernes",
+                "Sábado",
+                "Domingo"
+            ],
+            "horario": "08:00 a 20:00 hrs.",
+            "tipo": [
+                "matutino",
+                "vespertino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
+        },
+        {
+            "id": 102,
+            "nombre": "La Cruz",
+            "ubicacion": "Estacionamiento de Mercado de La Cruz entre 15 de Mayo, Damián Carmona y Gutiérrez Nájera",
+            "colonia": "Centro",
+            "delegacion": "Centro Histórico",
+            "union_independiente": "",
+            "federacion": "",
+            "dias": [
+                "Domingo"
+            ],
+            "horario": "08:00 a 16:00 hrs.",
+            "tipo": [
+                "matutino"
+            ],
+            "agremiados": 0,
+            "contacto_nombre": "",
+            "contacto_telefono": "",
+            "antiguedad": "",
+            "notas": "",
+            "imagenes": [],
+            "coordenadas_poligono": []
         }
     ]
 }

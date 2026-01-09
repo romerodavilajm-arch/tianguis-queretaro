@@ -6,7 +6,23 @@ function llenarFiltros() {
 
     // Obtener valores únicos
     const delegaciones = [...new Set(allTianguis.map(t => t.delegacion))].sort();
-    const federaciones = [...new Set(allTianguis.map(t => t.federacion))].sort();
+
+    // Solo federaciones no vacías
+    const federaciones = [...new Set(allTianguis
+        .map(t => t.federacion)
+        .filter(f => f && f.trim() !== '')
+    )].sort();
+
+    // Obtener tipos únicos (extraer de arrays)
+    const tiposSet = new Set();
+    allTianguis.forEach(t => {
+        if (Array.isArray(t.tipo)) {
+            t.tipo.forEach(tipo => tiposSet.add(tipo));
+        } else if (t.tipo) {
+            tiposSet.add(t.tipo);
+        }
+    });
+    const tipos = [...tiposSet].sort();
 
     // Llenar delegaciones
     const delegacionSelect = document.getElementById('filter-delegacion');
@@ -18,6 +34,13 @@ function llenarFiltros() {
     const federacionSelect = document.getElementById('filter-federacion');
     federaciones.forEach(f => {
         federacionSelect.innerHTML += `<option value="${f}">${f}</option>`;
+    });
+
+    // Llenar tipos
+    const tipoSelect = document.getElementById('filter-tipo');
+    tipos.forEach(tipo => {
+        const tipoCapitalizado = tipo.charAt(0).toUpperCase() + tipo.slice(1);
+        tipoSelect.innerHTML += `<option value="${tipo}">${tipoCapitalizado}</option>`;
     });
 }
 
@@ -35,8 +58,11 @@ function filtrarTianguis() {
             (typeof t.dias === 'string' && t.dias.includes(dia))
         ));
 
-        // Verificar tipo (puede ser string con múltiples tipos separados por coma)
-        const cumpleTipo = !tipo || (t.tipo && t.tipo.includes(tipo));
+        // Verificar tipo (ahora es array)
+        const cumpleTipo = !tipo || (t.tipo && (
+            (Array.isArray(t.tipo) && t.tipo.includes(tipo)) ||
+            (typeof t.tipo === 'string' && t.tipo.includes(tipo))
+        ));
 
         // Verificar delegación
         const cumpleDelegacion = !delegacion || t.delegacion === delegacion;
@@ -59,20 +85,21 @@ function crearLeyenda() {
     const legendDiv = document.getElementById('legend-items');
     legendDiv.innerHTML = '';
 
-    Object.entries(COLORS).forEach(([federacion, color]) => {
-        if (federacion !== 'default') {
-            // Verificar si esta federación existe en los datos
-            const existe = allTianguis.some(t => t.federacion === federacion);
-            if (existe) {
-                const item = document.createElement('div');
-                item.className = 'legend-item';
-                item.innerHTML = `
-                    <div class="legend-color" style="background-color: ${color};"></div>
-                    <span>${federacion}</span>
-                `;
-                legendDiv.appendChild(item);
-            }
-        }
+    // Obtener federaciones únicas de los datos (solo no vacías)
+    const federacionesEnDatos = [...new Set(allTianguis
+        .map(t => t.federacion)
+        .filter(f => f && f.trim() !== '')
+    )].sort();
+
+    federacionesEnDatos.forEach(federacion => {
+        const color = COLORS[federacion] || COLORS.default;
+        const item = document.createElement('div');
+        item.className = 'legend-item';
+        item.innerHTML = `
+            <div class="legend-color" style="background-color: ${color};"></div>
+            <span>${federacion}</span>
+        `;
+        legendDiv.appendChild(item);
     });
 }
 

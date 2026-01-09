@@ -26,22 +26,38 @@ Mapa web público para visualizar todos los tianguis del municipio de Querétaro
 ## 📊 Estructura de datos
 Ver `data/tianguis.json` para el formato de datos.
 
+**Total de tianguis:** 102
+
 Cada tianguis incluye:
-- **Información básica**: ID, nombre, ubicación, delegación, federación
+- **Información básica**: ID, nombre, ubicación, colonia, delegación
+- **Organización**: Federación, unión independiente (nombre oficial)
 - **Horarios**: Días de operación, horario, tipo (matutino/vespertino/nocturno/diurno)
-- **Datos adicionales**: Agremiados, antigüedad, contacto
-- **Ubicación**: Coordenadas de polígono para el mapa
+- **Datos adicionales**: Agremiados, antigüedad, contacto (nombre y teléfono)
+- **Ubicación**: Coordenadas de polígono para el mapa (se agregarán progresivamente)
 - **Multimedia**: Imágenes (opcional)
 - **Notas**: Información adicional relevante (opcional)
 
-### Delegaciones disponibles:
-- Centro Historico
+### Delegaciones disponibles (7):
+- Centro Histórico
+- Epigmenio González Flores
 - Felipe Carrillo Puerto
-- Santa Rosa Jáuregui
-- Felix Osores Sotomayor
-- Villa Cayetano Rubio
+- Félix Osores Sotomayor
 - Josefa Vergara y Hernández
-- Epimenio Gonzales
+- Santa Rosa Jáuregui
+- Villa Cayetano Rubio
+
+### Federaciones (10):
+El sistema genera colores dinámicamente para las federaciones presentes en los datos:
+- Alianza de Sectores Populares
+- CROC
+- FECOPSE
+- FEQUC
+- FETAQ
+- FUCQ
+- Independiente
+- UCCQ
+- UCTEQ
+- UTAFAC
 
 ## 👥 Contribuir
 1. Fork el repositorio

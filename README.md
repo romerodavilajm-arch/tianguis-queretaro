@@ -26,6 +26,23 @@ Mapa web público para visualizar todos los tianguis del municipio de Querétaro
 ## 📊 Estructura de datos
 Ver `data/tianguis.json` para el formato de datos.
 
+Cada tianguis incluye:
+- **Información básica**: ID, nombre, ubicación, delegación, federación
+- **Horarios**: Días de operación, horario, tipo (matutino/vespertino/nocturno/diurno)
+- **Datos adicionales**: Agremiados, antigüedad, contacto
+- **Ubicación**: Coordenadas de polígono para el mapa
+- **Multimedia**: Imágenes (opcional)
+- **Notas**: Información adicional relevante (opcional)
+
+### Delegaciones disponibles:
+- Centro Historico
+- Felipe Carrillo Puerto
+- Santa Rosa Jáuregui
+- Felix Osores Sotomayor
+- Villa Cayetano Rubio
+- Josefa Vergara y Hernández
+- Epimenio Gonzales
+
 ## 👥 Contribuir
 1. Fork el repositorio
 2. Crear rama (`git checkout -b feature/nueva-funcionalidad`)

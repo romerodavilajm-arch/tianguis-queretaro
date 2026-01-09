@@ -162,6 +162,13 @@ function crearPopupContent(tianguis, color) {
                     <p>${tianguis.agremiados}</p>
                 </div>
                 ` : ''}
+                
+                ${tianguis.notas ? `
+                <div class="info-item">
+                    <strong>📝 Notas:</strong>
+                    <p>${tianguis.notas}</p>
+                </div>
+                ` : ''}
             </div>
             
             ${imagenesHTML}

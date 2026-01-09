@@ -45,13 +45,14 @@
             "imagenes": [
                 "https://i.ibb.co/abc123/tintero-01.jpg",
                 "https://i.ibb.co/def456/tintero-02.jpg"
-            ]
+            ],
+            "notas": ""
         },
         {
             "id": "CEN-001",
             "nombre": "Tianguis Bernardo Quintana",
             "ubicacion": "Av. Bernardo Quintana",
-            "delegacion": "Centro",
+            "delegacion": "Centro Historico",
             "federacion": "FENAME",
             "dias": [
                 "Domingo"
@@ -88,7 +89,8 @@
             "antiguedad": 15,
             "imagenes": [
                 "https://i.ibb.co/ghi789/bernardo-01.jpg"
-            ]
+            ],
+            "notas": ""
         },
         {
             "id": "SRJ-001",
@@ -133,13 +135,14 @@
             "imagenes": [
                 "https://i.ibb.co/jkl012/arboledas-01.jpg",
                 "https://i.ibb.co/mno345/arboledas-02.jpg"
-            ]
+            ],
+            "notas": ""
         },
         {
             "id": "CEN-002",
             "nombre": "Tianguis 5 de Febrero",
             "ubicacion": "Av. 5 de Febrero",
-            "delegacion": "Centro",
+            "delegacion": "Centro Historico",
             "federacion": "FETAM",
             "dias": [
                 "Martes",
@@ -175,7 +178,8 @@
                 ]
             ],
             "antiguedad": 25,
-            "imagenes": []
+            "imagenes": [],
+            "notas": ""
         },
         {
             "id": "FCP-002",
@@ -218,7 +222,8 @@
             "antiguedad": 8,
             "imagenes": [
                 "https://i.ibb.co/pqr678/juriquilla-01.jpg"
-            ]
+            ],
+            "notas": ""
         }
     ]
 }
